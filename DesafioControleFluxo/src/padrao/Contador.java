@@ -15,7 +15,9 @@ public class Contador {
 		
 		}catch (ParametrosInvalidosException exception) {
 			System.out.println(exception.getMessage());
-		}
+		}finally {
+            terminal.close();
+        }
 		
 	}
 	static void contar(int parametroUm, int parametroDois ) throws ParametrosInvalidosException {
