@@ -2,8 +2,10 @@ package iphone;
 import java.util.Scanner;
 public class Aplicativos {
 
+	private static Scanner scanner;
+
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		scanner = new Scanner(System.in);
 		Iphone celular = new Iphone();
 		System.out.println("BEM VINDO AO IPHONE");
 		
